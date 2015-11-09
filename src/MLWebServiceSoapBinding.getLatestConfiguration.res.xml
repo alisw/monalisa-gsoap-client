@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns2="http://xml.apache.org/xml-soap"
+ xmlns:ns1="urn:lia.ws"
+ xmlns:ns3="http://ws.lia">
+ <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <ns1:getLatestConfigurationResponse>
+   <getLatestConfigurationReturn SOAP-ENC:arrayType="ns3:WSConf[1]">
+    <item>
+     <confTime>0</confTime>
+     <wsFarm>
+      <clusterList SOAP-ENC:arrayType="ns3:WSCluster[1]">
+       <item>
+        <clusterName></clusterName>
+        <nodeList SOAP-ENC:arrayType="ns3:WSNode[1]">
+         <item>
+          <nodeName xsi:nil="true"></nodeName>
+          <paramList xsi:nil="true"></paramList>
+         </item>
+        </nodeList>
+       </item>
+      </clusterList>
+      <farmName></farmName>
+     </wsFarm>
+    </item>
+   </getLatestConfigurationReturn>
+  </ns1:getLatestConfigurationResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

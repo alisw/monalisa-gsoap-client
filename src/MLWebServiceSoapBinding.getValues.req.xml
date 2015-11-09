@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns2="http://xml.apache.org/xml-soap"
+ xmlns:ns1="urn:lia.ws"
+ xmlns:ns3="http://ws.lia">
+ <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <ns1:getValues>
+   <in0></in0>
+   <in1></in1>
+   <in2></in2>
+   <in3></in3>
+   <in4>0</in4>
+   <in5>0</in5>
+  </ns1:getValues>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns2="http://xml.apache.org/xml-soap"
+ xmlns:ns1="urn:lia.ws"
+ xmlns:ns3="http://ws.lia">
+ <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <ns1:getValuesResponse>
+   <getValuesReturn SOAP-ENC:arrayType="ns3:Result[1]">
+    <item>
+     <clusterName></clusterName>
+     <farmName></farmName>
+     <nodeName></nodeName>
+     <param>
+      <item>
+       <key></key>
+       <value></value>
+      </item>
+     </param>
+     <time>0</time>
+    </item>
+   </getValuesReturn>
+  </ns1:getValuesResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
