@@ -13,7 +13,7 @@ libmonalisawsclient_la_SOURCES = soapC.cpp soapH.h monalisawsclient.cxx monalisa
 libmonalisawsclient_la_LIBADD = 
 libmonalisawsclient_la_LDFLAGS = -version-info 1:0:0
 testWS_SOURCES = testWS.cxx
-testWS_LDADD = -L./ -lmonalisawsclient -lgcc
+testWS_LDADD = -L./ -lmonalisawsclient
 
 EXTRA_DIST = stdsoap2.cpp stdsoap2.h stlvector.h MLWebServiceSoapBinding.getConfiguration.req.xml MLWebServiceSoapBinding.getConfiguration.res.xml \
 	MLWebServiceSoapBinding.getFilteredLastValues.req.xml \
