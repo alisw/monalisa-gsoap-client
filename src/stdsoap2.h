@@ -465,8 +465,12 @@ A commercial use license is available from Genivia, Inc., contact@genivia.com
 # endif
 #endif
 
-#if defined(HAVE_XLOCALE_H) || defined(HAVE_STRTOD_L) || defined(HAVE_STRTOF_L) || defined(HAVE_SSCANF_L) || defined(HAVE_SPRINTF_L)
+#if defined(HAVE_STRTOD_L) || defined(HAVE_STRTOF_L) || defined(HAVE_SSCANF_L) || defined(HAVE_SPRINTF_L)
+#if defined(HAVE_XLOCALE_H)
 # include <xlocale.h>
+#else
+# include <locale.h>
+#endif
 #endif
 
 #ifndef WITH_NOSTDLIB
